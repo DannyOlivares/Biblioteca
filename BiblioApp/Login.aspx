@@ -10,7 +10,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
     <title>Sistema de bilioteca</title>
 </head>
-<body>
+<body style="background-image:url('Images/libro.jpg'); background-repeat:no-repeat; background-size: 100%">
     <div>
 
         <h1>
@@ -18,7 +18,10 @@
         </h1>
     </div>
 
-    <form>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <form>
   <div class="form-group">
     <label for="exampleInputEmail1">Nombre De Usuario</label>
     <input type="email" class="form-control" id="txtNombreusuario" aria-describedby="emailHelp" placeholder="Nombre Usuario">
@@ -35,5 +38,9 @@
   </div>
   <button type="submit" class="btn btn-primary">Ingresar</button>
 </form>
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>
