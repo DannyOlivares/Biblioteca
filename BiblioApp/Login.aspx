@@ -11,19 +11,22 @@
     <title>Sistema de bilioteca</title>
 </head>
 <body style="background-image:url('Images/libro.jpg'); background-repeat:no-repeat; background-size: 100%">
-    <div>
 
-        <h1>
-            Bienvenido
-        </h1>
-    </div>
 
     <div class="container">
         <div class="row">
             <div class="col">
+                <div>
+                    <br>
+                    <br>
+                    <h1>Bienvenido
+
+                    </h1>
+                </div>
+                <br>
                 <form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Nombre De Usuario</label>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Nombre De Usuario</label>
     <input type="email" class="form-control" id="txtNombreusuario" aria-describedby="emailHelp" placeholder="Nombre Usuario">
     <small id="emailHelp" class="form-text text-muted">Nunca revelaremos tus datos</small>
   </div>
