@@ -20,21 +20,20 @@
 
     <form>
   <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <label for="exampleInputEmail1">Nombre De Usuario</label>
+    <input type="email" class="form-control" id="txtNombreusuario" aria-describedby="emailHelp" placeholder="Nombre Usuario">
+    <small id="emailHelp" class="form-text text-muted">Nunca revelaremos tus datos</small>
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <label for="exampleInputPassword1">Contraseña</label>
+    <input type="password" class="form-control" id="txtContrasenia" placeholder="Ingrese Contraseña">
   </div>
   <div class="form-check">
-    <label class="form-check-label">
-      <input type="checkbox" class="form-check-input">
-      Check me out
+    
+      
     </label>
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary">Ingresar</button>
 </form>
 </body>
 </html>
