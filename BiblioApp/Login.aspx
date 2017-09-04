@@ -13,9 +13,9 @@
 <body style="background-image:url('Images/libro.jpg'); background-repeat:no-repeat; background-size: 100%">
 
 
-    <div class="container">
+    <div class="container mo">
         <div class="row">
-            <div class="col">
+            <div class="col-lg-6 text-center">
                 <div>
                     <br>
                     <br>
