@@ -19,20 +19,20 @@
                 <div>
                     <br>
                     <br>
-                    <h1>Bienvenidoo
-
+                    <h1>
+                        Bienvenido
                     </h1>
                 </div>
                 <br>
                 <form>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Nombre De Usuario</label>
-    <input type="email" class="form-control" id="txtNombreusuario" aria-describedby="emailHelp" placeholder="Nombre Usuario">
+    <input type="email" runat="server" class="form-control" id="txtNombreusuario" aria-describedby="emailHelp" placeholder="Nombre Usuario">
     <small id="emailHelp" class="form-text text-muted">Nunca revelaremos tus datos</small>
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Contraseña</label>
-    <input type="password" class="form-control" id="txtContrasenia" placeholder="Ingrese Contraseña">
+    <input type="password" runat="server" class="form-control" id="txtContrasenia" placeholder="Ingrese Contraseña">
   </div>
   <div class="form-check">
     
